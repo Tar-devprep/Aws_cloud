@@ -5,4 +5,4 @@ set -e
 docker pull tardevprep/aws_ci_py_demo
 
 # Run the Docker image as a container
-docker run -t -p 5000:5000 tardevprep/aws_ci_py_demo
+docker run -t -p 8000:8000 tardevprep/aws_ci_py_demo
