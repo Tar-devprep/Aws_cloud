@@ -5,4 +5,4 @@ set -e
 docker pull tardevprep/sample-python-flask-project
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 tardevprep/sample-python-flask-project
+docker run -d -p 8000:8000 tardevprep/sample-python-flask-project
